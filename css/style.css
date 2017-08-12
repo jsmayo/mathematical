@@ -12,23 +12,26 @@ body {
 }
 
 #screen {
-    /* 	width: 90%; */
+    /*  width: 90%; */
     height: 3em;
     background: white;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #E5E8E8;
+    text-align: right;
+    padding-top: 12px;
 }
 
-div.keypad {
+div.row div.col {
     margin: 0px;
     paddding: 0px;
+    padding-top: 12px;
     height: 52px;
     display: inline;
     border: 1px dashed white;
 }
 
-div.keypad:hover {
+div.row div.col:hover {
     background: #283747;
     color: white;
     border: 1px solid white;

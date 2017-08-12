@@ -111,6 +111,17 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Stevens-MacBook-Air:mathematical Steven$ pwd                                                                        \n/Users/Steven/GitHub/mathematical                                                                                   \nStevens-MacBook-Air:mathematical Steven$ git add .                                                                  \nStevens-MacBook-Air:mathematical Steven$ git commit -m \"Corrects: CSS styling of div heights\"                       \n[master 29dcbfb] Corrects: CSS styling of div heights                                                               \n 2 files changed, 85 insertions(+), 53 deletions(-)                                                                 \n rewrite css/style.css (87%)                                                                                        \n rewrite index.html (77%)                                                                                           \nStevens-MacBook-Air:mathematical Steven$ git push -u origin master                                                  \nTo https://github.com/jsmayo/mathematical.git                                                                       \n ! [rejected]        master -> master (fetch first)                                                                 \nerror: failed to push some refs to 'https://github.com/jsmayo/mathematical.git'                                     \nhint: Updates were rejected because the remote contains work that you do                                            \nhint: not have locally. This is usually caused by another repository pushing                                        \nhint: to the same ref. You may want to first integrate the remote changes                                           \nhint: (e.g., 'git pull ...') before pushing again.                                                                  \nhint: See the 'Note about fast-forwards' in 'git push --help' for details.                                          \nStevens-MacBook-Air:mathematical Steven$ pwd                                                                        \n/Users/Steven/GitHub/mathematical                                                                                   \nStevens-MacBook-Air:mathematical Steven$ git remote -v                                                              \norigin https://github.com/jsmayo/mathematical.git (fetch)                                                           \norigin https://github.com/jsmayo/mathematical.git (push)                                                            \nStevens-MacBook-Air:mathematical Steven$ git commit                                                                 \nOn branch master                                                                                                    \nnothing to commit, working tree clean                                                                               \nStevens-MacBook-Air:mathematical Steven$                                                                            \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n",
+			"settings":
+			{
+				"buffer_size": 3978,
+				"line_ending": "Unix",
+				"name": "Terminal (bash)",
+				"read_only": true,
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -120,9 +131,13 @@
 	"command_palette":
 	{
 		"height": 375.0,
-		"last_filter": "term",
+		"last_filter": "ter",
 		"selected_items":
 		[
+			[
+				"ter",
+				"Open Terminal View - Bash"
+			],
 			[
 				"term",
 				"Open Terminal View - Bash"
@@ -219,13 +234,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Steven/GitHub/mathematical"
+		"/Users/Steven/GitHub/mathematical",
+		"/Users/Steven/GitHub/mathematical/css",
+		"/Users/Steven/GitHub/mathematical/js"
 	],
 	"file_history":
 	[
+		"/Users/Steven/GitHub/mathematical/index.html",
 		"/Users/Steven/GitHub/mathematical/css/style.css",
 		"/Users/Steven/GitHub/mathematical/js/js.js",
-		"/Users/Steven/GitHub/mathematical/index.html",
 		"/Users/Steven/GitHub/mathematical/.gitignore",
 		"/Users/Steven/Dropbox/Courses/Udemy/WebDev/Unit_18_TodoList/index.html",
 		"/Users/Steven/GitHub/wiki-clone/index2.html",
@@ -414,8 +431,56 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1685,
+								1685
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"caret_style": "blink",
+							"color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
+							"default_dir": "/Users/Steven/GitHub/mathematical",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"scroll_past_end": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminal_view": true,
+							"terminal_view_core_args":
+							{
+								"cmd": "/bin/bash -l",
+								"cwd": "/Users/Steven/GitHub/mathematical",
+								"syntax": null,
+								"title": "Terminal (bash)"
+							},
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
