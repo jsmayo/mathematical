@@ -112,10 +112,37 @@
 	"buffers":
 	[
 		{
-			"contents": "Stevens-MacBook-Air:mathematical Steven$ pwd                                                                        \n/Users/Steven/GitHub/mathematical                                                                                   \nStevens-MacBook-Air:mathematical Steven$ git add .                                                                  \nStevens-MacBook-Air:mathematical Steven$ git commit -m \"Corrects: CSS styling of div heights\"                       \n[master 29dcbfb] Corrects: CSS styling of div heights                                                               \n 2 files changed, 85 insertions(+), 53 deletions(-)                                                                 \n rewrite css/style.css (87%)                                                                                        \n rewrite index.html (77%)                                                                                           \nStevens-MacBook-Air:mathematical Steven$ git push -u origin master                                                  \nTo https://github.com/jsmayo/mathematical.git                                                                       \n ! [rejected]        master -> master (fetch first)                                                                 \nerror: failed to push some refs to 'https://github.com/jsmayo/mathematical.git'                                     \nhint: Updates were rejected because the remote contains work that you do                                            \nhint: not have locally. This is usually caused by another repository pushing                                        \nhint: to the same ref. You may want to first integrate the remote changes                                           \nhint: (e.g., 'git pull ...') before pushing again.                                                                  \nhint: See the 'Note about fast-forwards' in 'git push --help' for details.                                          \nStevens-MacBook-Air:mathematical Steven$ pwd                                                                        \n/Users/Steven/GitHub/mathematical                                                                                   \nStevens-MacBook-Air:mathematical Steven$ git remote -v                                                              \norigin https://github.com/jsmayo/mathematical.git (fetch)                                                           \norigin https://github.com/jsmayo/mathematical.git (push)                                                            \nStevens-MacBook-Air:mathematical Steven$ git commit                                                                 \nOn branch master                                                                                                    \nnothing to commit, working tree clean                                                                               \nStevens-MacBook-Air:mathematical Steven$                                                                            \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n                                                                                                                    \n",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3978,
+				"buffer_size": 2025,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 814,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/js.js",
+			"settings":
+			{
+				"buffer_size": 2451,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#       modified:   js.js                                                          \n#                                                                                  \n# Changes not staged for commit:                                                   \n#       modified:   ../css/style.css                                               \n#       modified:   ../index.html                                                  \n#       modified:   ../mathematical.sublime-workspace                              \n#                                                                                  \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                                                   \n                                                 [ Wrote 19                        \n                                                                                   \n[master e80aa91] Updates: Styling and JS logic for CE and C                        \n.   * Added depth to the screen as well as fixed a bug wher                        \nRe-worked sizing of keypad container to appear more    real                        \n 1 file changed, 28 insertions(+), 23 deletions(-)                                 \nStevens-MacBook-Air:js Steven$ git push -u origin master                           \nCounting objects: 4, done.                                                         \nDelta compression using up to 4 threads.                                           \nCompressing objects: 100% (3/3), done.                                             \nWriting objects: 100% (4/4), 892 bytes | 0 bytes/s, done.                          \nTotal 4 (delta 2), reused 0 (delta 0)                                              \nremote: Resolving deltas: 100% (2/2), completed with 2 loca                        \nTo https://github.com/jsmayo/mathematical.git                                      \n   bd0cbbe..e80aa91  master -> master                                              \nBranch master set up to track remote branch master from ori                        \nStevens-MacBook-Air:js Steven$                                                     \n",
+			"settings":
+			{
+				"buffer_size": 3108,
 				"line_ending": "Unix",
 				"name": "Terminal (bash)",
 				"read_only": true,
@@ -207,7 +234,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 471.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -431,23 +458,125 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3978,
+						"buffer_size": 2025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1685,
-								1685
+								0,
+								2025
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2451,
+								2451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 598.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3108,
+						"regions":
+						{
+							"20,49":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1729,
+										1739
+									]
+								],
+								"scope": "terminalview.white_black"
+							}
+						},
+						"selection":
+						[
+							[
+								3055,
+								3055
 							]
 						],
 						"settings":
@@ -468,7 +597,7 @@
 							"terminal_view_core_args":
 							{
 								"cmd": "/bin/bash -l",
-								"cwd": "/Users/Steven/GitHub/mathematical",
+								"cwd": "/Users/Steven/GitHub/mathematical/js",
 								"syntax": null,
 								"title": "Terminal (bash)"
 							},

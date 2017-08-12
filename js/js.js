@@ -43,11 +43,11 @@ $(".keypad").on("click", function() {
         a *= -1;
         $("#screen").text(a);
     } else if ($(this).hasClass("col keypad equals")) {
-        a = parseInt(a);
+        a = parseFloat(a);
         checkOperation(result, oper, a);
     } else {
         // parse the first input
-        result = parseInt(a)
+        result = parseFloat(a)
         oper = this.innerText;
         //handle special cases for clear, del, and clear all
         if (oper === "CE") {
